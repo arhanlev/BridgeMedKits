@@ -76,7 +76,7 @@ const Footer = () => {
               <li>123 Medical Way</li>
               <li>Healthcare City, HC 12345</li>
               <li>Phone: (555) 123-4567</li>
-              <li>Email: info@bridgemedkits.org</li>
+              <li>Email: bridgemedkits@gmail.com</li>
             </ul>
           </div>
         </div>
