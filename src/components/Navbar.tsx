@@ -30,9 +30,14 @@ const Navbar = () => {
             <Link href="/contact" className="text-gray-700 hover:text-primary">
               Contact
             </Link>
-            <button className="bg-primary text-white px-4 py-2 rounded-full hover:bg-opacity-90">
+            <a
+              href="https://www.gofundme.com/f/support-bridgem-kits-mission-today?attribution_id=sl:c1752735-a687-4f8f-8f08-dd1ad3161eee&lang=en_US&ts=1760756724&utm_campaign=man_sharesheet_dash&utm_content=amp17_ta&utm_medium=customer&utm_source=copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-white px-4 py-2 rounded-full hover:bg-opacity-90"
+            >
               Donate
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -84,9 +89,14 @@ const Navbar = () => {
             <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-primary">
               Contact
             </Link>
-            <Link href="/donate"className="w-full mt-4 bg-primary text-white px-4 py-2 rounded-full hover:bg-opacity-90">
+            <a
+              href="https://www.gofundme.com/f/support-bridgem-kits-mission-today?attribution_id=sl:c1752735-a687-4f8f-8f08-dd1ad3161eee&lang=en_US&ts=1760756724&utm_campaign=man_sharesheet_dash&utm_content=amp17_ta&utm_medium=customer&utm_source=copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full mt-4 bg-primary text-white px-4 py-2 rounded-full hover:bg-opacity-90"
+            >
               Donate
-            </Link>
+            </a>
           </div>
         </div>
       )}

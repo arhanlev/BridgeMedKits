@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,9 +11,9 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">BridgeMedKits</h1>
             <p className="text-xl mb-8">A student-led nonprofit delivering custom-built medical kits to underserved clinics worldwide</p>
-            <button className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
+            <Link href="/about" className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -65,9 +66,9 @@ export default function Home() {
             <p className="text-lg text-gray-600 mb-8">
               Join us in our mission to provide essential medical supplies to those in need.
             </p>
-            <button className="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
+            <Link href="/contact" className="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
               Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </section>

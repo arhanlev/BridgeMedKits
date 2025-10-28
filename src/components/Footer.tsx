@@ -57,9 +57,14 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/donate" className="text-gray-400 hover:text-white">
+                <a
+                  href="https://www.gofundme.com/f/support-bridgem-kits-mission-today?attribution_id=sl:c1752735-a687-4f8f-8f08-dd1ad3161eee&lang=en_US&ts=1760756724&utm_campaign=man_sharesheet_dash&utm_content=amp17_ta&utm_medium=customer&utm_source=copy_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white"
+                >
                   Donate
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
