@@ -1,0 +1,22 @@
+import React from "react";
+import "./Donate.css"; // optional for styling
+
+const Donate = () => {
+  return (
+    <div className="donate-container">
+      <h1>Support Our Cause</h1>
+      <p>
+        Your donation helps us continue our mission. Click below to contribute
+        via GoFundMe.
+      </p>
+      <a
+        href="https://www.gofundme.com/f/YOUR-CAMPAIGN-LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="donate-button"
+      >
+        Donate on GoFundMe
+      </a>
+    </div>
+  );
+};
