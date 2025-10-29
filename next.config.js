@@ -7,8 +7,8 @@ const nextConfig = {
     unoptimized: true, // Required for static export
   },
   // Required for GitHub Pages
-  //basePath: process.env.NODE_ENV === 'production' ? '/BridgeMedKits' : '',
-  //assetPrefix: process.env.NODE_ENV === 'production' ? '/BridgeMedKits/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/BridgeMedKits' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/BridgeMedKits/' : '',
 }
 
 module.exports = nextConfig 
